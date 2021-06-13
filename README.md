@@ -97,6 +97,7 @@ The model usefull for continous labels
 
 *The algorithm usefull for recommendation algorithms(for example Netflix and YouTube recommendations)*
 *Random forest actually, has a lot of decision trees's results that we avarage results.*
+*Ensemble learning family that using multiple ml algorithms simultaneously.*
 
 
 
