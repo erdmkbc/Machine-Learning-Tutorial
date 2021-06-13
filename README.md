@@ -99,5 +99,11 @@ The model usefull for continous labels
 *Random forest actually, has a lot of decision trees's results that we avarage results.*
 *Ensemble learning family that using multiple ml algorithms simultaneously.*
 
+## Logistic Regression 
+![logistic_regression](https://user-images.githubusercontent.com/51100947/121822774-894d0e80-cca9-11eb-9d07-14bd36e64128.png)
 
+*The algoritms usefull for data that has a binary label.* 
+*Logistic Regression is basic of the neural networks.*
+*The goals are features need to numerical values.*
+*Learning procceses that aim to optimize the w and bias values by continuously implementing forward and backward propagation.*
 
