@@ -1,6 +1,6 @@
 # Machine Learning 
 
-## Content
+# Content
 ### * Audi data
 ### * Cancer data
 ### * Stroke Prediction data
