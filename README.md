@@ -90,8 +90,13 @@ The model usefull for continous labels
 ## Decision Tree 
 ![decision_tree](https://user-images.githubusercontent.com/51100947/121821686-2789a600-cca3-11eb-9fb0-2f8e7d654095.png)
 
-*Algorithm that divides the coordinate plane into many parts(leaf) and makes predictions as a result of comparisons.*
+*Algorithm that the best try to splitting the coordinate plane into many parts(terminal leaf we can say) and makes predictions as a result of comparisons.*
 
+## Random forest 
+
+
+*The algorithm usefull for recommendation algorithms(for example Netflix and YouTube recommendations)*
+*Random forest actually, has a lot of decision trees's results that we avarage results.*
 
 
 
