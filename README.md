@@ -73,5 +73,6 @@
 * Learning time!
   * Logistic Regression
 
+# The machine learning algorithms that we used
 
-
+## Linear Regression
