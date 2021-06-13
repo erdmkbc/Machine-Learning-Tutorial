@@ -93,7 +93,7 @@ The model usefull for continous labels
 *Algorithm that the best try to splitting the coordinate plane into many parts(terminal leaf we can say) and makes predictions as a result of comparisons.*
 
 ## Random forest 
-
+![randon_forest](https://user-images.githubusercontent.com/51100947/121822495-0bd4ce80-cca8-11eb-944a-e897711e047d.png)
 
 *The algorithm usefull for recommendation algorithms(for example Netflix and YouTube recommendations)*
 *Random forest actually, has a lot of decision trees's results that we avarage results.*
