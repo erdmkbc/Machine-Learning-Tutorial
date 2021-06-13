@@ -2,7 +2,7 @@
 
 ## It contains 4 data for now
 
-#### Audi data
+### Audi data
 *The data has audi cars 1997 and 2020 between years some features where feaurues in below and trying to guess price in dependent where feature in below.*
 
 *Using three regression models because 'price' feature is continuous label*
@@ -26,7 +26,7 @@
 * Random Forest regressor
 * Compare the regressions's r2 score
 
-#### Cancer data
+### Cancer data
 *The data, has cancer cells feature where feature in below and trying to diagnose in dependent of feauture.*
 *Using Logistic Regression method the method that are basic of artifical neural networks and good performs if data has a binary labels.*
 
@@ -45,7 +45,7 @@
   * Implementing Logistic Regression
 * Logistic Regression with sklearn
 
-##### Stroke Prediction data 
+### Stroke Prediction data 
 
 *The stroke prediction data set trying to guess to stroke status in dependent some features where features below.*
 
