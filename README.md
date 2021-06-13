@@ -3,6 +3,7 @@
 ## Content
 ### * Audi data
 ### * Cancer data
+### * Stroke Prediction data
 ### * The machine learning algorithms that we used
 
 ## It contains 4 data for now
