@@ -1,5 +1,10 @@
 # Machine Learning 
 
+## Content
+### Audi data
+### Cancer data
+### The machine learning algorithms that we used
+
 ## It contains 4 data for now
 
 ### Audi data
