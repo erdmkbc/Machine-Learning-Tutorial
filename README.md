@@ -84,7 +84,7 @@ The model usefull for continous labels
 *Tryin to minimize MSE(mean squared eror).*
 
 ![polynomial regression](https://user-images.githubusercontent.com/51100947/121821640-f01af980-cca2-11eb-97cd-3d114ddf41f8.png)
-#### *If our data has parabolic density we use polynomial form.*
+#### *If our data has parabolic density we can use polynomial form.*
 
 
 ## Decision Tree 
