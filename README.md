@@ -76,3 +76,12 @@
 # The machine learning algorithms that we used
 
 ## Linear Regression
+![linear reggreasion](https://user-images.githubusercontent.com/51100947/121821481-01afd180-cca2-11eb-929f-32bf14b587ef.png)
+
+
+
+
+
+
+
+
