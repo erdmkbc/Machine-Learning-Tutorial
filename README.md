@@ -4,6 +4,7 @@
 ### * Audi data
 ### * Cancer data
 ### * Stroke Prediction data
+### * Biomechanical human data
 ### * The machine learning algorithms that we used
 
 ## It contains 4 data for now
@@ -78,6 +79,37 @@
 * Encoding catagorical features with label encoder for learning processes
 * Learning time!
   * Logistic Regression
+
+### Biomechanical human data
+
+*This content has Biomechanical Feautures of orthopedic patiens dataset. Humans's bimechanicals has a a lot of feaure that you can see features below.*
+
+The training processes was implemented with,
+
+* Logistic Regression
+* Knn
+* Linear SVM methods.
+
+##### Content
+* Load to data
+* Trying to understand data
+* Feature engineering
+  * Analyze the correlation between features
+  * lumbar_lordosis_angle and pelvic_incidence
+  * degree_spondylolisthesis and pelvic_incidence
+  * pelvic_tilt_number and pelvic_incidence
+  * lumbar_lordosis_angle and sacral_slope
+* Train and test splitting processes
+  * Decleration variabels for splitting processes
+  * Encoding labels(object to int64) with label encoding method
+  * Test and train splitting
+* Normalization for numerical values
+* Learning time!
+  * Logistic Regression
+  * Knn classification
+  * Linear SVM
+* Compare the learning algorithms
+
 
 # The machine learning algorithms that we used
 
