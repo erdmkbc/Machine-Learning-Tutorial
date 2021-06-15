@@ -106,7 +106,7 @@ The model usefull for continous labels
 *Ensemble learning family that using multiple ml algorithms simultaneously.*
 
 ## Logistic Regression 
-![logistic_regression](https://user-images.githubusercontent.com/51100947/121822774-894d0e80-cca9-11eb-9d07-14bd36e64128.png)
+![logistic_regression](https://user-images.githubusercontent.com/51100947/121822774-894d0e80-cca9-11eb-9d07-14bd36e64128.png)![knn](https://user-images.githubusercontent.com/51100947/121974220-9e986a80-cd87-11eb-8759-222d0a826ddc.png)
 
 *The algoritms usefull for data that has a binary label.* 
 
@@ -116,3 +116,10 @@ The model usefull for continous labels
 
 *Learning procceses that aim to optimize the w and bias values by continuously implementing forward and backward propagation.*
 
+## Knn(K nearest neighbors)
+![knn](https://user-images.githubusercontent.com/51100947/121974267-b2dc6780-cd87-11eb-9b9d-1e16862cf7d3.png)
+
+## Linear SVM(Support Vector Machine)
+![linear_svm](https://user-images.githubusercontent.com/51100947/121974329-d0a9cc80-cd87-11eb-9f9d-fe29e2395f88.png)
+
+*The processes goals optimize best margin by support vectors.*
