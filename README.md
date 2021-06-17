@@ -3,8 +3,24 @@ What is the Machine Learning ?
 
 *Machine learning is a branch of artificial intelligence (AI) and computer science which focuses on the use of data and algorithms to imitate the way that humans learn, gradually improving its accuracy.*
 
+*There are two types of learning methods by data label type,*
+Regression models goal train data for continous labels
+ * Linear Regression
+     * Multiple linear regression
+     * Polynomial linear regression
+     * Decision Tree Regression
+     * Random Forest Regression
 
+*Classification models goal train data for discrete labels and classification algorithms also two type Supervised and Unsupervised Learning algorithms.*
 
+Supervised Learning Algorithms goal, the algorithms that if data has a label and we want to prediction these label we use supervised learning methods
+ * K neirest neighbor Classification
+ * Linear SVM
+ * Decision Tree Classification
+ * Random Forest Classification
+ * Naive Bayes Classification
+
+Unsupervised learning methods goal, the algorithms that if data has no a label and we want to these label we use supervised learning methods
 
 # Content
 ### * Audi data
