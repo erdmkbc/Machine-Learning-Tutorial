@@ -72,7 +72,7 @@ The model usefull for continous labels
 *Random Forest has a lot of Decision trees and it use to these Tress for prediction processes.*
 
 
-# Exploraty Data Analysis and training data 
+# Exploraty Data Analysis and training data that we use
 ### * Audi data
 ### * Cancer data
 ### * Stroke Prediction data
