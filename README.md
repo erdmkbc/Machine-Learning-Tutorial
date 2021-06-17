@@ -23,7 +23,7 @@ Supervised Learning algorithms goal, if data has a label and we want to predicti
 # Machine learning algorithms
 ## Regression models
 ### Linear Regression
-![linear reggreasion](https://user-images.githubusercontent.com/51100947/121821481-01afd180-cca2-11eb-929f-32bf14b587ef.png)
+![linear_regression](https://user-images.githubusercontent.com/51100947/122485607-08ab4c80-cfe0-11eb-80e9-b4e95c7c5609.png)
 
 The model usefull for continous labels 
 
