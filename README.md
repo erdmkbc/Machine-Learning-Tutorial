@@ -8,8 +8,8 @@ Regression models goal train data for continous labels
  * Linear Regression
      * Multiple linear regression
      * Polynomial linear regression
-     * Decision Tree Regression
-     * Random Forest Regression
+  * Decision Tree Regression
+  * Random Forest Regression
 
 *Classification models goal train data for discrete labels and classification algorithms also two type Supervised and Unsupervised Learning algorithms.*
 
