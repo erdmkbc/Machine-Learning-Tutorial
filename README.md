@@ -30,8 +30,9 @@ The model usefull for continous labels
 *The goal is try to draw the most optimized line.*
 *Tryin to minimize MSE(mean squared eror).*
 
+### Polynomial Regression
 ![polynomial regression](https://user-images.githubusercontent.com/51100947/121821640-f01af980-cca2-11eb-97cd-3d114ddf41f8.png)
-#### *If our data has parabolic density we can use polynomial form.*
+*If our data has parabolic density we can use polynomial form.*
 
 ### Decision Tree 
 ![decision_tree](https://user-images.githubusercontent.com/51100947/121821686-2789a600-cca3-11eb-9fb0-2f8e7d654095.png)
