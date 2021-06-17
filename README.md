@@ -94,7 +94,8 @@ Basic example for label encoder:
 ## OneHot encoding
 *One Hot Encoding means that categorical variables are displayed as binary (binary). This process must first convert the categorical values to the values of integers. Then its integer value is represented as a binary with all values except the integer index marked with 1.*
 
-Basic example for one hot encoding
+Basic example for one hot encoding:
+
 ![one_hot_encoding](https://user-images.githubusercontent.com/51100947/122485416-815dd900-cfdf-11eb-94c7-c785e5461297.PNG)
 
 # Exploraty Data Analysis and training data that we use
