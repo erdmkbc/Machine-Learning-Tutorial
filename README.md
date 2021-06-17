@@ -53,18 +53,22 @@ The model usefull for continous labels
 
 ### Linear SVM(Support Vector Machine)
 ![linear_svm](https://user-images.githubusercontent.com/51100947/121974329-d0a9cc80-cd87-11eb-9f9d-fe29e2395f88.png)
+
 *The processes goals optimize best margin by support vectors.*
 
 ### Naive Bayes
 ![naives_bayes](https://user-images.githubusercontent.com/51100947/122481838-1eb50f00-cfd8-11eb-8eed-7282f86ad452.png)
+
 *Naive Bayes algorithm depend of probality by spots position* 
 
 ### Decision Tree 
 ![DecisionTree_Class](https://user-images.githubusercontent.com/51100947/122482137-aa2ea000-cfd8-11eb-8e41-1212fdbb5a7f.png)
+
 *Decision Tree try to best splitting for classification, after that using the thresholds that the best splitting when it prediction proceses*
 
 ### Random Forest
 ![Random_Forest_Class](https://user-images.githubusercontent.com/51100947/122482373-1b6e5300-cfd9-11eb-9a51-5e72ff6256a9.png)
+
 *Random Forest has a lot of Decision trees and it use to these Tress for prediction processes.*
 
 
