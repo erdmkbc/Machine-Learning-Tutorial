@@ -71,6 +71,14 @@ The model usefull for continous labels
 
 *Random Forest has a lot of Decision trees and it use to these Tress for prediction processes.*
 
+### Introduction the Deep Learning with Logistic regression 
+*Shortly, deep learning training processes realise with data not a model therefore Deep learning better than machine learning algorithms in big datas.*
+
+![logistic_Regression](https://user-images.githubusercontent.com/51100947/122483410-2b873200-cfdb-11eb-8695-7ff456de6451.png)
+
+*Logistic Regression basic of the neural networks.*
+
+*Forward and backward propagation goals, find the best weigth(w) and bias(b).*
 
 # Exploraty Data Analysis and training data that we use
 ### * Audi data
