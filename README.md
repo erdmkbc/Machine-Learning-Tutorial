@@ -13,21 +13,65 @@ Regression models goal train data for continous labels
 
 *Classification models goal train data for discrete labels and classification algorithms also two type Supervised and Unsupervised Learning algorithms.*
 
-Supervised Learning Algorithms goal, the algorithms that if data has a label and we want to prediction these label we use supervised learning methods
+Supervised Learning algorithms goal, if data has a label and we want to prediction these label we use supervised learning methods
  * K neirest neighbor Classification
  * Linear SVM
  * Decision Tree Classification
  * Random Forest Classification
  * Naive Bayes Classification
 
-Unsupervised learning methods goal, the algorithms that if data has no a label and we want to these label we use supervised learning methods
+# Machine learning algorithms
+## Regression models
+### Linear Regression
+![linear reggreasion](https://user-images.githubusercontent.com/51100947/121821481-01afd180-cca2-11eb-929f-32bf14b587ef.png)
 
-# Content
+The model usefull for continous labels 
+
+*The goal is try to draw the most optimized line.*
+*Tryin to minimize MSE(mean squared eror).*
+
+![polynomial regression](https://user-images.githubusercontent.com/51100947/121821640-f01af980-cca2-11eb-97cd-3d114ddf41f8.png)
+#### *If our data has parabolic density we can use polynomial form.*
+
+### Decision Tree 
+![decision_tree](https://user-images.githubusercontent.com/51100947/121821686-2789a600-cca3-11eb-9fb0-2f8e7d654095.png)
+
+*Algorithm that the best try to splitting the coordinate plane into many parts(terminal leaf we can say) and makes predictions as a result of comparisons.*
+
+### Random forest 
+![randon_forest](https://user-images.githubusercontent.com/51100947/121822495-0bd4ce80-cca8-11eb-944a-e897711e047d.png)
+
+*The algorithm usefull for recommendation algorithms(for example Netflix and YouTube recommendations)*
+*Random forest actually, has a lot of decision trees's results that we avarage results.*
+*Ensemble learning family that using multiple ml algorithms simultaneously.*
+
+## Classification models
+### Supervised Learning methods
+#### Knn(K nearest neighbors)
+![knn](https://user-images.githubusercontent.com/51100947/121974267-b2dc6780-cd87-11eb-9b9d-1e16862cf7d3.png)
+
+#### Linear SVM(Support Vector Machine)
+![linear_svm](https://user-images.githubusercontent.com/51100947/121974329-d0a9cc80-cd87-11eb-9f9d-fe29e2395f88.png)
+*The processes goals optimize best margin by support vectors.*
+
+#### Naive Bayes
+![naives_bayes](https://user-images.githubusercontent.com/51100947/122481838-1eb50f00-cfd8-11eb-8eed-7282f86ad452.png)
+*Naive Bayes algorithm depend of probality by spots position* 
+
+#### Decision Tree 
+![DecisionTree_Class](https://user-images.githubusercontent.com/51100947/122482137-aa2ea000-cfd8-11eb-8e41-1212fdbb5a7f.png)
+*Decision Tree try to best splitting for classification, after that using the thresholds that the best splitting when it prediction proceses*
+
+#### Random Forest
+![Random_Forest_Class](https://user-images.githubusercontent.com/51100947/122482373-1b6e5300-cfd9-11eb-9a51-5e72ff6256a9.png)
+*Random Forest has a lot of Decision trees and it use to these Tress for prediction processes.*
+
+
+# Exploraty Data Analysis and training data 
 ### * Audi data
 ### * Cancer data
 ### * Stroke Prediction data
 ### * Biomechanical human data
-### * The machine learning algorithms that we used
 
 ## It contains 4 data for now
 
@@ -155,47 +199,4 @@ The training processes was implemented with,
    * Visualization part
    * Confusion matrixes
 
-# The machine learning algorithms that we used
 
-## Linear Regression
-![linear reggreasion](https://user-images.githubusercontent.com/51100947/121821481-01afd180-cca2-11eb-929f-32bf14b587ef.png)
-
-The model usefull for continous labels 
-
-*The goal is try to draw the most optimized line.*
-*Tryin to minimize MSE(mean squared eror).*
-
-![polynomial regression](https://user-images.githubusercontent.com/51100947/121821640-f01af980-cca2-11eb-97cd-3d114ddf41f8.png)
-#### *If our data has parabolic density we can use polynomial form.*
-
-
-## Decision Tree 
-![decision_tree](https://user-images.githubusercontent.com/51100947/121821686-2789a600-cca3-11eb-9fb0-2f8e7d654095.png)
-
-*Algorithm that the best try to splitting the coordinate plane into many parts(terminal leaf we can say) and makes predictions as a result of comparisons.*
-
-## Random forest 
-![randon_forest](https://user-images.githubusercontent.com/51100947/121822495-0bd4ce80-cca8-11eb-944a-e897711e047d.png)
-
-*The algorithm usefull for recommendation algorithms(for example Netflix and YouTube recommendations)*
-*Random forest actually, has a lot of decision trees's results that we avarage results.*
-*Ensemble learning family that using multiple ml algorithms simultaneously.*
-
-## Logistic Regression 
-![logistic_regression](https://user-images.githubusercontent.com/51100947/121822774-894d0e80-cca9-11eb-9d07-14bd36e64128.png)
-
-*The algoritms usefull for data that has a binary label.* 
-
-*Logistic Regression is basic of the neural networks.*
-
-*The features are need to numerical values.*
-
-*Learning procceses that aim to optimize the w and bias values by continuously implementing forward and backward propagation.*
-
-## Knn(K nearest neighbors)
-![knn](https://user-images.githubusercontent.com/51100947/121974267-b2dc6780-cd87-11eb-9b9d-1e16862cf7d3.png)
-
-## Linear SVM(Support Vector Machine)
-![linear_svm](https://user-images.githubusercontent.com/51100947/121974329-d0a9cc80-cd87-11eb-9f9d-fe29e2395f88.png)
-
-*The processes goals optimize best margin by support vectors.*
