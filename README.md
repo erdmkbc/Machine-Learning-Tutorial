@@ -1,4 +1,10 @@
 # Machine Learning 
+What is the Machine Learning ?
+
+*Machine learning is a branch of artificial intelligence (AI) and computer science which focuses on the use of data and algorithms to imitate the way that humans learn, gradually improving its accuracy.*
+
+
+
 
 # Content
 ### * Audi data
@@ -44,13 +50,22 @@
 * Implement to variables
 * Normalization values
 * Train and test splitting
-* Logistic Regression
-  * Implementing initilazing parameters and sigmoid function
-  * Implementing forward and backward propagation
-  * Implementing and update parameters
-  * Implementing prediction
-  * Implementing Logistic Regression
-* Logistic Regression with sklearn
+* Learning Time!
+  * Logistic Regression
+     * Implementing initilazing parameters and sigmoid function
+     * Implementing forward and backward propagation
+     * Implementing and update parameters
+     * Implementing prediction
+     * Implementing Logistic Regression
+     * Logistic Regression with sklearn
+  * Knn classification
+  * Linear SVM
+  * Decision Tree Classification 
+  * Random Forest Classification
+  * Naive Bayes Classification
+* Compare the learning algorithms
+   * Visualization part
+   * Confusion matrixes
 
 ### Stroke Prediction data 
 
@@ -79,6 +94,15 @@
 * Encoding catagorical features with label encoder for learning processes
 * Learning time!
   * Logistic Regression
+  * Knn classification
+  * Linear SVM
+  * Decision Tree Classification 
+  * Random Forest Classification
+  * Naive Bayes Classification
+* Compare the learning algorithms
+   * Visualization part
+   * Confusion matrixes
+
 
 ### Biomechanical human data
 
@@ -108,8 +132,12 @@ The training processes was implemented with,
   * Logistic Regression
   * Knn classification
   * Linear SVM
+  * Decision Tree Classification 
+  * Random Forest Classification
+  * Naive Bayes Classification
 * Compare the learning algorithms
-
+   * Visualization part
+   * Confusion matrixes
 
 # The machine learning algorithms that we used
 
