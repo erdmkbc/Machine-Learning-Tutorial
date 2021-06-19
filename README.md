@@ -6,6 +6,7 @@ What is the Machine Learning ?
 *There are three types of learning methods in this repository.*
 These are Supervised, Unsupervised, Ensebmle methods.
 
+## Supervised Learning
 **Supervised Learning algorithms goal, if data has a label and we want to prediction these label we use supervised learning methods.**
 
 Supervised learning methods also two type.
@@ -26,6 +27,11 @@ Classification types where given in below.
  * Decision Tree Classification
  * Random Forest Classification
  * Naive Bayes Classification
+
+## Unsupervised Learning
+![kmeans](https://user-images.githubusercontent.com/51100947/122658214-3bd21500-d173-11eb-8b13-c9ec3ece65ca.png)
+
+
 
 # Machine learning algorithms
 ## Regression models
