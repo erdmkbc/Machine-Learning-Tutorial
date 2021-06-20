@@ -29,9 +29,8 @@ Classification types where given in below.
  * Naive Bayes Classification
 
 ## Unsupervised Learning
-![kmeans](https://user-images.githubusercontent.com/51100947/122658214-3bd21500-d173-11eb-8b13-c9ec3ece65ca.png)
-
-
+Unsupervised if data has a no label and we want to cluster to data we can use unsupervised learning method
+  * KMeans
 
 # Machine learning algorithms
 ## Regression models
@@ -84,6 +83,10 @@ The model usefull for continous labels
 ![Random_Forest_Class](https://user-images.githubusercontent.com/51100947/122482373-1b6e5300-cfd9-11eb-9a51-5e72ff6256a9.png)
 
 *Random Forest has a lot of Decision trees and it use to these Tress for prediction processes.*
+
+## Unsupervised Learning methods
+### KMeans
+![kmeans](https://user-images.githubusercontent.com/51100947/122658374-1514de00-d175-11eb-93e5-0a90bc7379f3.png)
 
 ### Introduction the Deep Learning with Logistic regression(a separate deep learning repository will be prepared)
 *Shortly, deep learning training processes realise with data not a model therefore Deep learning better than machine learning algorithms in big datas.*
