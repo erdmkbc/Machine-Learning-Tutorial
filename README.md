@@ -88,6 +88,7 @@ The model usefull for continous labels
 ### KMeans
 ![kmeans](https://user-images.githubusercontent.com/51100947/122658374-1514de00-d175-11eb-93e5-0a90bc7379f3.png)
 
+*It is aimed to decrease the wcss value.*
 ### Introduction the Deep Learning with Logistic regression(a separate deep learning repository will be prepared)
 *Shortly, deep learning training processes realise with data not a model therefore Deep learning better than machine learning algorithms in big datas.*
 
