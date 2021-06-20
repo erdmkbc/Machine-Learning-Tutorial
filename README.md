@@ -120,8 +120,8 @@ Basic example for one hot encoding:
 ### * Cancer data
 ### * Stroke Prediction data
 ### * Biomechanical human data
-
-## It contains 4 data for now
+### * Mall Customers
+## It contains 5 data for now
 
 ### Audi data
 *The data has audi cars 1997 and 2020 between years some features where feaurues in below and trying to guess price in dependent where feature in below.*
@@ -248,3 +248,30 @@ The training processes was implemented with,
    * Confusion matrixes
 
 
+### Mall Customers
+
+*The dataset has mall customers calculate the spending score with features where given in data.*
+* The data has no label and it is avalaible for clustering.
+* We will cluster the datas with Kmeans algorithms(Unsupervised method).
+
+##### Content
+* Trying to understand data
+* Encoding feature that has a object type
+* Feature engineering
+  * Analysis correlation values.
+  * Avarage to anual income by gender.
+  * Avarage to spending score by gender.
+  * Relation with age and spending score.
+    * General
+    * By gender
+  * Relation with age and Anual incomes
+    * General
+    * By gender
+  * Relation with Anual incomes and Spending score
+    * General
+    * By gender
+* Dropping to 3 feature for clustering and visualization
+* Clustering time!
+  * Specify k number with elbow method.
+  * Clustering with kmeans algorithms
+  * Visualization Clusters and centroids
