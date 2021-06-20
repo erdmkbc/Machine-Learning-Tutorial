@@ -124,7 +124,7 @@ Basic example for one hot encoding:
 ## It contains 5 data for now
 
 ### Audi data
-*The data has audi cars 1997 and 2020 between years some features where feaurues in below and trying to guess price in dependent where feature in below.*
+*The data has audi cars 1997 and 2020 between years some features where feaurues in below and trying to guess price in dependent where given in data.*
 
 *Using three regression models because 'price' feature is continuous label*
 
@@ -177,7 +177,7 @@ Basic example for one hot encoding:
 
 ### Stroke Prediction data 
 
-*The stroke prediction data set trying to guess to stroke status in dependent some features where features below.*
+*The stroke prediction data set trying to guess to stroke status in dependent some features where given in data.*
 
 *Using Logistic Regression method the method that are basic of artifical neural networks and good performs if data has a binary labels.*
 
@@ -215,12 +215,6 @@ Basic example for one hot encoding:
 ### Biomechanical human data
 
 *This content has Biomechanical Feautures of orthopedic patiens dataset. Humans's bimechanicals has a a lot of feaure that you can see features below.*
-
-The training processes was implemented with,
-
-* Logistic Regression
-* Knn
-* Linear SVM methods.
 
 ##### Content
 * Load to data
