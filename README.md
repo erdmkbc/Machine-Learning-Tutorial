@@ -6,6 +6,7 @@ What is the Machine Learning ?
 *There are three types of learning methods in this repository.*
 These are Supervised, Unsupervised, Ensebmle methods.
 
+## Supervised Learning
 **Supervised Learning algorithms goal, if data has a label and we want to prediction these label we use supervised learning methods.**
 
 Supervised learning methods also two type.
@@ -26,6 +27,10 @@ Classification types where given in below.
  * Decision Tree Classification
  * Random Forest Classification
  * Naive Bayes Classification
+
+## Unsupervised Learning
+Unsupervised if data has a no label and we want to cluster to data we can use unsupervised learning method
+  * KMeans
 
 # Machine learning algorithms
 ## Regression models
@@ -79,6 +84,11 @@ The model usefull for continous labels
 
 *Random Forest has a lot of Decision trees and it use to these Tress for prediction processes.*
 
+## Unsupervised Learning methods
+### KMeans
+![kmeans](https://user-images.githubusercontent.com/51100947/122658374-1514de00-d175-11eb-93e5-0a90bc7379f3.png)
+
+*It is aimed to decrease the wcss value.*
 ### Introduction the Deep Learning with Logistic regression(a separate deep learning repository will be prepared)
 *Shortly, deep learning training processes realise with data not a model therefore Deep learning better than machine learning algorithms in big datas.*
 
@@ -110,11 +120,11 @@ Basic example for one hot encoding:
 ### * Cancer data
 ### * Stroke Prediction data
 ### * Biomechanical human data
-
-## It contains 4 data for now
+### * Mall Customers
+## It contains 5 data for now
 
 ### Audi data
-*The data has audi cars 1997 and 2020 between years some features where feaurues in below and trying to guess price in dependent where feature in below.*
+*The data has audi cars 1997 and 2020 between years some features where feaurues in below and trying to guess price in dependent where given in data.*
 
 *Using three regression models because 'price' feature is continuous label*
 
@@ -167,7 +177,7 @@ Basic example for one hot encoding:
 
 ### Stroke Prediction data 
 
-*The stroke prediction data set trying to guess to stroke status in dependent some features where features below.*
+*The stroke prediction data set trying to guess to stroke status in dependent some features where given in data.*
 
 *Using Logistic Regression method the method that are basic of artifical neural networks and good performs if data has a binary labels.*
 
@@ -206,12 +216,6 @@ Basic example for one hot encoding:
 
 *This content has Biomechanical Feautures of orthopedic patiens dataset. Humans's bimechanicals has a a lot of feaure that you can see features below.*
 
-The training processes was implemented with,
-
-* Logistic Regression
-* Knn
-* Linear SVM methods.
-
 ##### Content
 * Load to data
 * Trying to understand data
@@ -238,3 +242,30 @@ The training processes was implemented with,
    * Confusion matrixes
 
 
+### Mall Customers
+
+*The dataset has mall customers calculate the spending score with features where given in data.*
+* The data has no label and it is avalaible for clustering.
+* We will cluster the datas with Kmeans algorithms(Unsupervised method).
+
+##### Content
+* Trying to understand data
+* Encoding feature that has a object type
+* Feature engineering
+  * Analysis correlation values.
+  * Avarage to anual income by gender.
+  * Avarage to spending score by gender.
+  * Relation with age and spending score.
+    * General
+    * By gender
+  * Relation with age and Anual incomes
+    * General
+    * By gender
+  * Relation with Anual incomes and Spending score
+    * General
+    * By gender
+* Dropping to 3 feature for clustering and visualization
+* Clustering time!
+  * Specify k number with elbow method.
+  * Clustering with kmeans algorithms
+  * Visualization Clusters and centroids
