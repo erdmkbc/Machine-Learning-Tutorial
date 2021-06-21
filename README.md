@@ -273,6 +273,11 @@ Basic example for one hot encoding:
     * By gender
 * Dropping to 3 feature for clustering and visualization
 * Clustering time!
+* KMeans
   * Specify k number with elbow method.
   * Clustering with kmeans algorithms
-  * Visualization Clusters and centroids
+  * Visualization Clusters and centroids.
+* Hierarcial Clustering(HC)
+  * Visualization Dendogram map and decide to cluster number
+  * Implement the HC algorithms
+  * Visualization Clusters.
