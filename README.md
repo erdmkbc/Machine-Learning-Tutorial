@@ -122,6 +122,9 @@ Basic example for one hot encoding:
 
 ![one_hot_encoding](https://user-images.githubusercontent.com/51100947/122485416-815dd900-cfdf-11eb-94c7-c785e5461297.PNG)
 
+# NLP(Natural Language Process)
+
+
 # Exploraty Data Analysis and training data that we use
 ### * Audi data
 ### * Cancer data
