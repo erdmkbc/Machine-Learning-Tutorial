@@ -1,5 +1,25 @@
 # Machine Learning 
-What is the Machine Learning ?
+
+*This repository tutorial for Machine learning preprocesses, Exploraty Data Analysis, Machine learning algorithms. I hope it will be helpful :).*
+
+# Contents
+* What is the Machine Learning ?
+* Learning methods
+  * Supervised Learning
+  * Unsupervised Learning
+* Machine learning algorithms graphs and explanation
+  * Regression models
+  * Classification models
+    * Supervised Learning
+    * Unsupervised Learning
+    * Introduction the Deep Learning with Logistic regression(a separate deep learning repository will be prepared)
+* Encoding Types 
+  * Label encoder
+  * OneHotEncoding
+* NLP(Natural Language Process)
+* Exploraty Data Analysis and training data that we use
+
+# What is the Machine Learning ?
 
 **Machine learning is a branch of artificial intelligence (AI) and computer science which focuses on the use of data and algorithms to imitate the way that humans learn, gradually improving its accuracy.**
 
@@ -33,7 +53,7 @@ Unsupervised if data has a no label and we want to cluster to data we can use un
   * KMeans
   * Hieararchical Clustering
 
-# Machine learning algorithms
+# Machine learning algorithms graphs and explanation
 ## Regression models
 ### Linear Regression
 ![linear_regression](https://user-images.githubusercontent.com/51100947/122485607-08ab4c80-cfe0-11eb-80e9-b4e95c7c5609.png)
