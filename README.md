@@ -1,10 +1,30 @@
-# Machine Learning 
-What is the Machine Learning ?
+# Machine Learning Tutorial
+
+*This repository tutorial for Machine learning preprocesses, Exploraty Data Analysis, Machine learning algorithms. I hope it will be helpful :).*
+
+# Contents
+* What is the Machine Learning ?
+* Learning methods
+  * Supervised Learning
+  * Unsupervised Learning
+* Machine learning algorithms graphs and explanation
+  * Regression models
+  * Classification models
+    * Supervised Learning
+    * Unsupervised Learning
+    * Introduction the Deep Learning with Logistic regression(a separate deep learning repository will be prepared)
+* Encoding Types 
+  * Label encoder
+  * OneHotEncoding
+* NLP(Natural Language Process)
+* Exploraty Data Analysis and training data that we use
+
+# What is the Machine Learning ?
 
 **Machine learning is a branch of artificial intelligence (AI) and computer science which focuses on the use of data and algorithms to imitate the way that humans learn, gradually improving its accuracy.**
 
 *There are three types of learning methods in this repository.*
-These are Supervised, Unsupervised, Ensebmle methods.
+These are Supervised, Unsupervised, Ensemble methods.
 
 ## Supervised Learning
 **Supervised Learning algorithms goal, if data has a label and we want to prediction these label we use supervised learning methods.**
@@ -33,7 +53,7 @@ Unsupervised if data has a no label and we want to cluster to data we can use un
   * KMeans
   * Hieararchical Clustering
 
-# Machine learning algorithms
+# Machine learning algorithms graphs and explanation
 ## Regression models
 ### Linear Regression
 ![linear_regression](https://user-images.githubusercontent.com/51100947/122485607-08ab4c80-cfe0-11eb-80e9-b4e95c7c5609.png)
@@ -121,6 +141,30 @@ Basic example for label encoder:
 Basic example for one hot encoding:
 
 ![one_hot_encoding](https://user-images.githubusercontent.com/51100947/122485416-815dd900-cfdf-11eb-94c7-c785e5461297.PNG)
+
+# NLP(Natural Language Process)
+*Natural language processing (NLP) is a branch of artificial intelligence that helps computers understand, interpret and manipulate human language.*
+
+## NLP Processes
+![nlp_myself](https://user-images.githubusercontent.com/51100947/123517031-b5a05c00-d6a7-11eb-80ac-5e1bd607d104.png)
+
+As we can see, actually the methods has tried to clear texts for computer and has tried to encoding the all letters for models. 
+
+## What is the Bag of words ?
+The Bag of Words (BoW) model is the simplest form of text representation in numbers. Like the term itself, we can represent a sentence as a bag of words vector (a string of numbers).
+
+Let’s recall the three types of movie reviews we saw earlier:
+
+* Review 1: This movie is very scary and long
+* Review 2: This movie is not scary and is slow
+* Review 3: This movie is spooky and good
+*We will first build a vocabulary from all the unique words in the above three reviews. The vocabulary consists of these 11 words: ‘This’, ‘movie’, ‘is’, ‘very’, ‘scary’, ‘and’, ‘long’, ‘not’,  ‘slow’, ‘spooky’,  ‘good’.*
+
+We can now take each of these words and mark their occurrence in the three movie reviews above with 1s and 0s. This will give us 3 vectors for 3 reviews:
+
+![BoWBag-of-Words-model-2](https://user-images.githubusercontent.com/51100947/123517231-9229e100-d6a8-11eb-8c02-37a918e2abea.png)
+
+*Source : https://www.analyticsvidhya.com/blog/2020/02/quick-introduction-bag-of-words-bow-tf-idf/
 
 # Exploraty Data Analysis and training data that we use
 ### * Audi data
