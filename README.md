@@ -360,3 +360,30 @@ Content
   * Logistic Regression
   * Confusion matrix
 
+# Google Appstore reviews
+
+### Introduction
+The data set GoogleAppStore reviews for mobile application, and also label for positive, negative and neutral label.
+
+The content predict the positive, negative and neutral tags of the reviews with NLP.
+
+Content
+* Importing libraries.
+* Trying to understand data.
+* Create a new data frame for replies and labels(Concat feature).
+* Dropping NaN replies from data frame.
+* Pick the indices for testing preprocessing processes
+  * Remove the redundant strings(these are ':' , ':)' , '//'...).
+  * Split to words.
+  * Lemmazation.
+* The processes that we testing on one indices implement on data.
+  * Bag of words.
+  * Create the 'Sparce Matrix' for bag of words.
+* The most use words, with data visiulazation
+* Learning Time!
+  * Split the train and test data.
+  * Training with Random Forest.
+  * Training with Logistic Regression
+* Confusion matrixes
+ * Random Forest
+ * Logistic Regression
