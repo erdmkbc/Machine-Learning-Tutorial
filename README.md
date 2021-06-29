@@ -60,6 +60,7 @@ Unsupervised if data has a no label and we want to cluster to data we can use un
 ![1548702778023](https://user-images.githubusercontent.com/51100947/123879620-e4d5f800-d949-11eb-87c6-98daa18d2e3f.png)
 
 *Source for graph : https://www.jmp.com/en_us/statistics-knowledge-portal/what-is-multiple-regression/fitting-multiple-regression-model.html
+
 The model usefull for continous labels 
 
 *The goal is try to draw the most optimized line.*
