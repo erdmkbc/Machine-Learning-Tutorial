@@ -97,7 +97,7 @@ The model usefull for continous labels
 *Naive Bayes algorithm depend of probality by spots position* 
 
 ### Decision Tree 
-![DecisionTree_Class](https://user-images.githubusercontent.com/51100947/122482137-aa2ea000-cfd8-11eb-8e41-1212fdbb5a7f.png)
+![dt](https://user-images.githubusercontent.com/51100947/123881971-721b4b80-d94e-11eb-85dd-94ea4bb8f065.png)
 
 *Decision Tree try to best splitting for classification, after that using the thresholds that the best splitting when it prediction proceses*
 
