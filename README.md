@@ -81,7 +81,7 @@ The model usefull for continous labels
 ## Classification models
 ### Supervised Learning methods
 ### Knn(K nearest neighbors)
-![knn](https://user-images.githubusercontent.com/51100947/121974267-b2dc6780-cd87-11eb-9b9d-1e16862cf7d3.png)
+![Knn](https://user-images.githubusercontent.com/51100947/123881210-e9e87680-d94c-11eb-8785-2286714a45d4.png)
 
 ### Linear SVM(Support Vector Machine)
 ![linear_svm](https://user-images.githubusercontent.com/51100947/121974329-d0a9cc80-cd87-11eb-9f9d-fe29e2395f88.png)
