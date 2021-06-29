@@ -57,8 +57,9 @@ Unsupervised if data has a no label and we want to cluster to data we can use un
 # Machine learning algorithms graphs and explanation
 ## Regression models
 ### Linear Regression
-![linear_regression](https://user-images.githubusercontent.com/51100947/122485607-08ab4c80-cfe0-11eb-80e9-b4e95c7c5609.png)
+![1548702778023](https://user-images.githubusercontent.com/51100947/123879620-e4d5f800-d949-11eb-87c6-98daa18d2e3f.png)
 
+*Source for graph : https://www.jmp.com/en_us/statistics-knowledge-portal/what-is-multiple-regression/fitting-multiple-regression-model.html
 The model usefull for continous labels 
 
 *The goal is try to draw the most optimized line.*
