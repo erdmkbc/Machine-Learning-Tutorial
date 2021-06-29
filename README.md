@@ -172,9 +172,10 @@ We can now take each of these words and mark their occurrence in the three movie
 ### * Stroke Prediction data
 ### * Biomechanical human data
 ### * Mall Customers
-## It contains 5 data for now
+### * COVID 19 Tweet types
+### * Google App reviews
 
-### Audi data
+# Audi data
 *The data has audi cars 1997 and 2020 between years some features where feaurues in below and trying to guess price in dependent where given in data.*
 
 *Using three regression models because 'price' feature is continuous label*
@@ -198,7 +199,7 @@ We can now take each of these words and mark their occurrence in the three movie
 * Random Forest regressor
 * Compare the regressions's r2 score
 
-### Cancer data
+# Cancer data
 *The data, has cancer cells feature where feature in below and trying to diagnose in dependent of feauture.*
 *Using Logistic Regression method the method that are basic of artifical neural networks and good performs if data has a binary labels.*
 
@@ -226,7 +227,7 @@ We can now take each of these words and mark their occurrence in the three movie
    * Visualization part
    * Confusion matrixes
 
-### Stroke Prediction data 
+# Stroke Prediction data 
 
 *The stroke prediction data set trying to guess to stroke status in dependent some features where given in data.*
 
@@ -263,7 +264,7 @@ We can now take each of these words and mark their occurrence in the three movie
    * Confusion matrixes
 
 
-### Biomechanical human data
+# Biomechanical human data
 
 *This content has Biomechanical Feautures of orthopedic patiens dataset. Humans's bimechanicals has a a lot of feaure that you can see features below.*
 
@@ -293,7 +294,7 @@ We can now take each of these words and mark their occurrence in the three movie
    * Confusion matrixes
 
 
-### Mall Customers
+# Mall Customers
 
 *The dataset has mall customers calculate the spending score with features where given in data.*
 * The data has no label and it is avalaible for clustering.
@@ -325,3 +326,65 @@ We can now take each of these words and mark their occurrence in the three movie
   * Visualization Dendogram map and decide to cluster number
   * Implement the HC algorithms
   * Visualization Clusters.
+
+# COVID-19 Tweet types
+### Introduction
+The data set has tweet that relation with Covid - 19, also has a label for tweet type that
+
+The content predict the positive, negative, neutral, extremely positive, extremely Negative tweets type with NLP.
+
+Content
+* Importing libraries
+* Load to data
+* Trying to understand data
+* Visualization to percantage tweet types general
+* Analyzing the tweets type location that more than has 100 tweets
+* Detecthing location that has more than 100 tweets
+   * Create new data frame for tweets type that has more than 100 tweets
+   * Filling the data frame that we created
+   * Visualization to percantage tweets type for Covid 19 by location that has more than 100 tweets
+* NLP(Natural Language Processing) Processes
+   * Pick the indices for testing preprocessing processes
+   * Remove the ırrevelant strings(: , :) , ! , //...) and convert the lower case
+   * Tokinenize to text
+   * Lemmization all words, and convert again text form
+* Create a new data frame for tweet types and tweets
+* Data cleaning
+  * Dropping NaN values
+  * The processes that we testing on one indices implement on data.
+  * Remove the stopwords and implement the countvectorizer
+  * Bag of words
+* Encoding labels with LabelEncoder method
+* The most use words, with data visiulazation
+* Splitting to train and test data
+* Learning Time!
+  * Logistic Regression
+  * Confusion matrix
+
+# Google Appstore reviews
+
+### Introduction
+The data set GoogleAppStore reviews for mobile application, and also label for positive, negative and neutral label.
+
+The content predict the positive, negative and neutral tags of the reviews with NLP.
+
+Content
+* Importing libraries.
+* Trying to understand data.
+* Create a new data frame for replies and labels(Concat feature).
+* Dropping NaN replies from data frame.
+* Pick the indices for testing preprocessing processes
+  * Remove the redundant strings(these are ':' , ':)' , '//'...).
+  * Split to words.
+  * Lemmazation.
+* The processes that we testing on one indices implement on data.
+  * Bag of words.
+  * Create the 'Sparce Matrix' for bag of words.
+* The most use words, with data visiulazation
+* Learning Time!
+  * Split the train and test data.
+  * Training with Random Forest.
+  * Training with Logistic Regression
+* Confusion matrixes
+ * Random Forest
+ * Logistic Regression
