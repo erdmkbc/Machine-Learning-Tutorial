@@ -174,6 +174,9 @@ The PCA Explanation with graph
 
 ![PCA](https://user-images.githubusercontent.com/51100947/123879158-22865100-d949-11eb-997d-2cb5b00daa86.png)
 
+So what is the variance ?
+*As you can see in graph variance tells you the degree of spread in your data set. The more spread the data, the larger the variance is in relation to the mean.*
+
 # Exploraty Data Analysis and training data that we use
 ### * Audi data
 ### * Cancer data
