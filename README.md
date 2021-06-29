@@ -36,10 +36,8 @@ These are regression and classifacation.
 *Regression algorithms goal is training data for continous labels.*
 Regression types where given in below.
  * Linear Regression
-     * Multiple linear regression
-     * Polynomial linear regression
-  * Decision Tree Regression
-  * Random Forest Regression
+ * Decision Tree Regression
+ * Random Forest Regression
 
 *Classification models goal train data for discrete labels and classification algorithms also two type Supervised and Unsupervised Learning algorithms.*
 Classification types where given in below.
@@ -66,15 +64,10 @@ The model usefull for continous labels
 *The goal is try to draw the most optimized line.*
 *Tryin to minimize MSE(mean squared eror).*
 
-### Polynomial Regression
-![polynomial regression](https://user-images.githubusercontent.com/51100947/121821640-f01af980-cca2-11eb-97cd-3d114ddf41f8.png)
-
-*If our data has parabolic density we can use polynomial form.*
-
 ### Decision Tree 
-![decision_tree](https://user-images.githubusercontent.com/51100947/121821686-2789a600-cca3-11eb-9fb0-2f8e7d654095.png)
+![df](https://user-images.githubusercontent.com/51100947/123880125-b278ca80-d94a-11eb-89c9-56aaeda79190.png)
 
-*Algorithm that the best try to splitting the coordinate plane into many parts(terminal leaf we can say) and makes predictions as a result of comparisons.*
+*Algorithm that the best try to splitting the coordinate plane into many parts(leaf we can say) and makes predictions as a result of comparisons.*
 
 ### Random forest 
 ![randon_forest](https://user-images.githubusercontent.com/51100947/121822495-0bd4ce80-cca8-11eb-944a-e897711e047d.png)
