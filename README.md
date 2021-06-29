@@ -17,6 +17,7 @@
   * Label encoder
   * OneHotEncoding
 * NLP(Natural Language Process)
+* PCA(Principle Component Analysis)
 * Exploraty Data Analysis and training data that we use
 
 # What is the Machine Learning ?
@@ -165,6 +166,13 @@ We can now take each of these words and mark their occurrence in the three movie
 ![BoWBag-of-Words-model-2](https://user-images.githubusercontent.com/51100947/123517231-9229e100-d6a8-11eb-8c02-37a918e2abea.png)
 
 *Source : https://www.analyticsvidhya.com/blog/2020/02/quick-introduction-bag-of-words-bow-tf-idf/
+
+# PCA(Principle Component Analysis)
+*Shortly, Principal component analysis, or PCA, is a statistical procedure that allows you to summarize the information content in large data tables by means of a smaller set of “summary indices” that can be more easily visualized and analyzed.*
+
+The PCA Explanation with graph
+
+![PCA](https://user-images.githubusercontent.com/51100947/123879158-22865100-d949-11eb-997d-2cb5b00daa86.png)
 
 # Exploraty Data Analysis and training data that we use
 ### * Audi data
