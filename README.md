@@ -83,6 +83,9 @@ The model usefull for continous labels
 ### Knn(K nearest neighbors)
 ![Knn](https://user-images.githubusercontent.com/51100947/123881210-e9e87680-d94c-11eb-8785-2286714a45d4.png)
 
+*The algorithms the data spot that we want to predict calculate the neirest spots distance with using euclidean distance and decison the label by neirest spots surrounding a number of labels.*
+*The algorithms that use to euclidean distance needs always to normalization because some distances too bigger than the other distances, that will be domination the other distances so it wont't be good perform!!*
+
 ### Linear SVM(Support Vector Machine)
 ![linear_svm](https://user-images.githubusercontent.com/51100947/121974329-d0a9cc80-cd87-11eb-9f9d-fe29e2395f88.png)
 
