@@ -62,7 +62,8 @@ Unsupervised if data has a no label and we want to cluster to data we can use un
 The model usefull for continous labels 
 
 *The goal is try to draw the most optimized line.*
-*Tryin to minimize MSE(mean squared eror).*
+*So why did the algorithm summing error and square? because some errors are positive value and samo errors are negative value, if we sum to the errors we might have errors zero and it's not realist value.*
+*So the algorithms try to minimize MSE(mean squared eror).*
 
 ### Decision Tree 
 ![df](https://user-images.githubusercontent.com/51100947/123880125-b278ca80-d94a-11eb-89c9-56aaeda79190.png)
