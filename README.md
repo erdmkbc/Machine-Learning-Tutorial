@@ -17,6 +17,7 @@
   * Label encoder
   * OneHotEncoding
 * NLP(Natural Language Process)
+* PCA(Principle Component Analysis)
 * Exploraty Data Analysis and training data that we use
 
 # What is the Machine Learning ?
@@ -35,10 +36,8 @@ These are regression and classifacation.
 *Regression algorithms goal is training data for continous labels.*
 Regression types where given in below.
  * Linear Regression
-     * Multiple linear regression
-     * Polynomial linear regression
-  * Decision Tree Regression
-  * Random Forest Regression
+ * Decision Tree Regression
+ * Random Forest Regression
 
 *Classification models goal train data for discrete labels and classification algorithms also two type Supervised and Unsupervised Learning algorithms.*
 Classification types where given in below.
@@ -56,25 +55,25 @@ Unsupervised if data has a no label and we want to cluster to data we can use un
 # Machine learning algorithms graphs and explanation
 ## Regression models
 ### Linear Regression
-![linear_regression](https://user-images.githubusercontent.com/51100947/122485607-08ab4c80-cfe0-11eb-80e9-b4e95c7c5609.png)
+![1548702778023](https://user-images.githubusercontent.com/51100947/123879620-e4d5f800-d949-11eb-87c6-98daa18d2e3f.png)
+
+*Source for graph : https://www.jmp.com/en_us/statistics-knowledge-portal/what-is-multiple-regression/fitting-multiple-regression-model.html
 
 The model usefull for continous labels 
 
 *The goal is try to draw the most optimized line.*
-*Tryin to minimize MSE(mean squared eror).*
-
-### Polynomial Regression
-![polynomial regression](https://user-images.githubusercontent.com/51100947/121821640-f01af980-cca2-11eb-97cd-3d114ddf41f8.png)
-
-*If our data has parabolic density we can use polynomial form.*
+*So why did the algorithm summing error and square? because some errors are positive value and samo errors are negative value, if we sum to the errors we might have errors zero and it's not realist value.*
+*So the algorithms try to minimize MSE(mean squared eror).*
 
 ### Decision Tree 
-![decision_tree](https://user-images.githubusercontent.com/51100947/121821686-2789a600-cca3-11eb-9fb0-2f8e7d654095.png)
+![df](https://user-images.githubusercontent.com/51100947/123880125-b278ca80-d94a-11eb-89c9-56aaeda79190.png)
 
-*Algorithm that the best try to splitting the coordinate plane into many parts(terminal leaf we can say) and makes predictions as a result of comparisons.*
+*Algorithm that the best try to splitting the coordinate plane into many parts(leaf we can say) and makes predictions as a result of comparisons.*
 
 ### Random forest 
-![randon_forest](https://user-images.githubusercontent.com/51100947/121822495-0bd4ce80-cca8-11eb-944a-e897711e047d.png)
+![Fig-A10-Random-Forest-Regressor-The-regressor-used-here-is-formed-of-100-trees-and-the](https://user-images.githubusercontent.com/51100947/123880272-f79cfc80-d94a-11eb-83f7-2881a9780a9a.png)
+
+* Source for graph : https://www.researchgate.net/figure/Fig-A10-Random-Forest-Regressor-The-regressor-used-here-is-formed-of-100-trees-and-the_fig3_313489088
 
 *The algorithm usefull for recommendation algorithms(for example Netflix and YouTube recommendations)*
 *Random forest actually, has a lot of decision trees's results that we avarage results.*
@@ -83,7 +82,10 @@ The model usefull for continous labels
 ## Classification models
 ### Supervised Learning methods
 ### Knn(K nearest neighbors)
-![knn](https://user-images.githubusercontent.com/51100947/121974267-b2dc6780-cd87-11eb-9b9d-1e16862cf7d3.png)
+![Knn](https://user-images.githubusercontent.com/51100947/123881210-e9e87680-d94c-11eb-8785-2286714a45d4.png)
+
+*The algorithms the data spot that we want to predict calculate the neirest spots distance with using euclidean distance and decison the label by neirest spots surrounding a number of labels.*
+*The algorithms that use to euclidean distance needs always to normalization because some distances too bigger than the other distances, that will be domination the other distances so it wont't be good perform!!*
 
 ### Linear SVM(Support Vector Machine)
 ![linear_svm](https://user-images.githubusercontent.com/51100947/121974329-d0a9cc80-cd87-11eb-9f9d-fe29e2395f88.png)
@@ -96,7 +98,7 @@ The model usefull for continous labels
 *Naive Bayes algorithm depend of probality by spots position* 
 
 ### Decision Tree 
-![DecisionTree_Class](https://user-images.githubusercontent.com/51100947/122482137-aa2ea000-cfd8-11eb-8e41-1212fdbb5a7f.png)
+![dt](https://user-images.githubusercontent.com/51100947/123881971-721b4b80-d94e-11eb-85dd-94ea4bb8f065.png)
 
 *Decision Tree try to best splitting for classification, after that using the thresholds that the best splitting when it prediction proceses*
 
@@ -165,6 +167,16 @@ We can now take each of these words and mark their occurrence in the three movie
 ![BoWBag-of-Words-model-2](https://user-images.githubusercontent.com/51100947/123517231-9229e100-d6a8-11eb-8c02-37a918e2abea.png)
 
 *Source : https://www.analyticsvidhya.com/blog/2020/02/quick-introduction-bag-of-words-bow-tf-idf/
+
+# PCA(Principle Component Analysis)
+*Shortly, Principal component analysis, or PCA, is a statistical procedure that allows you to summarize the information content in large data tables by means of a smaller set of “summary indices” that can be more easily visualized and analyzed.*
+
+The PCA Explanation with graph
+
+![PCA](https://user-images.githubusercontent.com/51100947/123879158-22865100-d949-11eb-997d-2cb5b00daa86.png)
+
+So what is the variance ?
+*As you can see in graph variance tells you the degree of spread in your data set. The more spread the data, the larger the variance is in relation to the mean.*
 
 # Exploraty Data Analysis and training data that we use
 ### * Audi data
