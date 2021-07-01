@@ -19,7 +19,7 @@
 * NLP(Natural Language Process)
 * PCA(Principle Component Analysis)
 * What is K-Fold-CrossValidation ? 
-* What is GridSearch ?
+  * What is GridSearch ?
 * Exploraty Data Analysis and training data that we use
 
 # What is the Machine Learning ?
@@ -189,6 +189,13 @@ How it works ?*
 As you can see the process goal split the train data by k number.
 In number of 'k-1' in train data split for training process, in number of 1 split in train data for testing process.
 
+## What is the grid search ? 
+*Grid search is a process that searches exhaustively through a manually specified subset of the hyperparameter space of the targeted algorithm.*
+Actually, we can say grid search method important for optimization models processing.
+
+![Grid_Search](https://user-images.githubusercontent.com/51100947/124144153-6043c080-da94-11eb-8c3b-b7f23fca20d7.png)
+
+As we can see diffrences between grid search and random search.
 
 # Exploraty Data Analysis and training data that we use
 ### * Audi data
