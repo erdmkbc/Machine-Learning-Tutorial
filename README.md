@@ -1,6 +1,6 @@
 # Machine Learning Tutorial
 
-*This repository tutorial for Machine learning preprocesses, Exploraty Data Analysis, Machine learning algorithms. I hope it will be helpful :).*
+*This repository tutorial for Machine learning preprocesses, Exploraty Data Analysis, Machine learning algorithms.*
 
 # Contents
 * What is the Machine Learning ?
