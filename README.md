@@ -18,6 +18,8 @@
   * OneHotEncoding
 * NLP(Natural Language Process)
 * PCA(Principle Component Analysis)
+* What is K-Fold-CrossValidation ? 
+* What is GridSearch ?
 * Exploraty Data Analysis and training data that we use
 
 # What is the Machine Learning ?
@@ -177,6 +179,16 @@ The PCA Explanation with graph
 
 So what is the variance ?
 *As you can see in graph variance tells you the degree of spread in your data set. The more spread the data, the larger the variance is in relation to the mean.*
+
+# What is the K-Fold-CrossValidation
+*We can say for K-Fold-CrossValidation, that is testing processes for avoid the overfitting.
+How it works ?*
+
+![K-Fold-Cross_Validation](https://user-images.githubusercontent.com/51100947/124141439-1a85f880-da92-11eb-83f7-6f088ffed093.png)
+
+As you can see the process goal split the train data by k number.
+In number of 'k-1' in train data split for training process, in number of 1 split in train data for testing process.
+
 
 # Exploraty Data Analysis and training data that we use
 ### * Audi data
