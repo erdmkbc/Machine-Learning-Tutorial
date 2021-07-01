@@ -230,11 +230,12 @@ So what is the variance ?
      * Implementing prediction
      * Implementing Logistic Regression
      * Logistic Regression with sklearn
-  * Knn classification
-  * Linear SVM
-  * Decision Tree Classification 
-  * Random Forest Classification
-  * Naive Bayes Classification
+  * Grid searching for best hyperparameters
+     * Knn classification
+     * Linear SVM
+     * Decision Tree Classification 
+     * Random Forest Classification
+     * Naive Bayes Classification
 * Compare the learning algorithms
    * Visualization part
    * Confusion matrixes
