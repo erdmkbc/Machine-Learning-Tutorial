@@ -20,6 +20,7 @@
 * PCA(Principle Component Analysis)
 * What is K-Fold-CrossValidation ? 
   * What is GridSearch ?
+* Recommendation Systems
 * Exploraty Data Analysis and training data that we use
 
 # What is the Machine Learning ?
@@ -196,6 +197,20 @@ Actually, we can say grid search method important for optimization models proces
 ![Grid_Search](https://user-images.githubusercontent.com/51100947/124144153-6043c080-da94-11eb-8c3b-b7f23fca20d7.png)
 
 As we can see diffrences between grid search and random search.
+
+# Recommendation Systems
+*Basicly, a recommendation system , is a subclass of information filtering system that seeks to predict the "rating" or "preference" a user would give to an item.* 
+
+Even if the systems sometimes too dangerous for humanity (as you know that a Cambridge Analytica scandal in USA's presidential election), but it's usefull in someplaces for example like a Netflix, YouTube, Amazon, Facebook application.
+
+How it works the systems ? 
+We realize a two types for these systems that are "User based" and "Items based"
+
+![1_QvhetbRjCr1vryTch_2HZQ](https://user-images.githubusercontent.com/51100947/124333367-9ff5cf80-db9c-11eb-9e21-d9d2d72038d6.jpeg)
+
+As you can see user based depends on a users's habits and try to finding similarty with users.
+On the other hand items depends on a try to finding similarty with items.
+Generally, items based systems more usefull than userbased systems because people sometimes change the their habits so the process won't recommend appropriate product for people in a future, but the items will cannot change in a future and the process optimization might has good performs. 
 
 # Exploraty Data Analysis and training data that we use
 ### * Audi data
