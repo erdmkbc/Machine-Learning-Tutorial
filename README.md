@@ -1,6 +1,6 @@
 # Machine Learning Tutorial
 
-*This repository tutorial for Machine learning preprocesses, Exploraty Data Analysis, Machine learning algorithms. I hope it will be helpful :).*
+*This repository tutorial for Machine learning preprocesses, Exploraty Data Analysis, Machine learning algorithms.*
 
 # Contents
 * What is the Machine Learning ?
@@ -18,6 +18,9 @@
   * OneHotEncoding
 * NLP(Natural Language Process)
 * PCA(Principle Component Analysis)
+* What is K-Fold-CrossValidation ? 
+  * What is GridSearch ?
+* Recommendation Systems
 * Exploraty Data Analysis and training data that we use
 
 # What is the Machine Learning ?
@@ -178,6 +181,37 @@ The PCA Explanation with graph
 So what is the variance ?
 *As you can see in graph variance tells you the degree of spread in your data set. The more spread the data, the larger the variance is in relation to the mean.*
 
+# What is the K-Fold-CrossValidation
+*We can say for K-Fold-CrossValidation, that is testing processes for avoid the overfitting.
+How it works ?*
+
+![K-Fold-Cross_Validation](https://user-images.githubusercontent.com/51100947/124141439-1a85f880-da92-11eb-83f7-6f088ffed093.png)
+
+As you can see the process goal split the train data by k number.
+In number of 'k-1' in train data split for training process, in number of 1 split in train data for testing process.
+
+## What is the grid search ? 
+*Grid search is a process that searches exhaustively through a manually specified subset of the hyperparameter space of the targeted algorithm.*
+Actually, we can say grid search method important for optimization models processing.
+
+![Grid_Search](https://user-images.githubusercontent.com/51100947/124144153-6043c080-da94-11eb-8c3b-b7f23fca20d7.png)
+
+As we can see diffrences between grid search and random search.
+
+# Recommendation Systems
+*Basicly, a recommendation system , is a subclass of information filtering system that seeks to predict the "rating" or "preference" a user would give to an item.* 
+
+Even if the systems sometimes too dangerous for humanity (as you know that a Cambridge Analytica scandal in USA's presidential election), but it's usefull in someplaces for example like a Netflix, YouTube, Amazon, Facebook application.
+
+How it works the systems ? 
+We realize a two types for these systems that are "User based" and "Items based"
+
+![1_QvhetbRjCr1vryTch_2HZQ](https://user-images.githubusercontent.com/51100947/124333367-9ff5cf80-db9c-11eb-9e21-d9d2d72038d6.jpeg)
+
+As you can see user based depends on a users's habits and try to finding similarty with users.
+On the other hand items depends on a try to finding similarty with items.
+Generally, items based systems more usefull than userbased systems because people sometimes change the their habits so the process won't recommend appropriate product for people in a future, but the items will cannot change in a future and the process optimization might has good performs. 
+
 # Exploraty Data Analysis and training data that we use
 ### * Audi data
 ### * Cancer data
@@ -230,11 +264,12 @@ So what is the variance ?
      * Implementing prediction
      * Implementing Logistic Regression
      * Logistic Regression with sklearn
-  * Knn classification
-  * Linear SVM
-  * Decision Tree Classification 
-  * Random Forest Classification
-  * Naive Bayes Classification
+  * Grid searching for best hyperparameters
+     * Knn classification
+     * Linear SVM
+     * Decision Tree Classification 
+     * Random Forest Classification
+     * Naive Bayes Classification
 * Compare the learning algorithms
    * Visualization part
    * Confusion matrixes
