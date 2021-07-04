@@ -299,6 +299,7 @@ Generally, items based systems more usefull than userbased systems because peopl
 * Filling the missing value
 * Obtained training and testing variables for learning proceses
 * Encoding catagorical features with label encoder for learning processes
+* Implement the PCA(Principle Component Analysis) data and 2D visualization
 * Learning time!
   * Logistic Regression
   * Knn classification
