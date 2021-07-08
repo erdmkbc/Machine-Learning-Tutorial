@@ -278,7 +278,7 @@ Generally, items based systems more usefull than userbased systems because peopl
 
 *The stroke prediction data set trying to guess to stroke status in dependent some features where given in data.*
 
-*Using Logistic Regression method the method that are basic of artifical neural networks and good performs if data has a binary labels.*
+*The data is also imbalanced data, it was good experiences for me.*
 
 ##### Content
 * Imported data
