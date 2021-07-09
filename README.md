@@ -278,7 +278,7 @@ Generally, items based systems more usefull than userbased systems because peopl
 
 *The stroke prediction data set trying to guess to stroke status in dependent some features where given in data.*
 
-*Using Logistic Regression method the method that are basic of artifical neural networks and good performs if data has a binary labels.*
+*The data is also imbalanced data, it was good experiences for me.*
 
 ##### Content
 * Imported data
@@ -299,18 +299,17 @@ Generally, items based systems more usefull than userbased systems because peopl
 * Filling the missing value
 * Obtained training and testing variables for learning proceses
 * Encoding catagorical features with label encoder for learning processes
+* Train and test splitting and try to balanced labels
+* Normalization for continous columns
 * Implement the PCA(Principle Component Analysis) data and 2D visualization
 * Learning time!
-  * Logistic Regression
-  * Knn classification
-  * Linear SVM
-  * Decision Tree Classification 
-  * Random Forest Classification
-  * Naive Bayes Classification
-* Compare the learning algorithms
-   * Visualization part
-   * Confusion matrixes
-
+  * Optimization hyperparameters with RandomizedSearchCV
+    * Logistic Regression
+       * Fitting and testing model
+    * Knn Classification
+       * Fitting and testing model
+    * Decision Tree Classification
+       * Fitting and testing model
 
 # Biomechanical human data
 
