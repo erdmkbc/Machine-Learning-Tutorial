@@ -19,7 +19,8 @@
 * NLP(Natural Language Process)
 * PCA(Principle Component Analysis)
 * What is K-Fold-CrossValidation ? 
-  * What is GridSearch ?
+  * GridSearchCV vs RandomizedCV ?
+* What are the Overfitting and Underfitting status ? 
 * Recommendation Systems
 * Exploraty Data Analysis and training data that we use
 
@@ -190,13 +191,17 @@ How it works ?*
 As you can see the process goal split the train data by k number.
 In number of 'k-1' in train data split for training process, in number of 1 split in train data for testing process.
 
-## What is the grid search ? 
-*Grid search is a process that searches exhaustively through a manually specified subset of the hyperparameter space of the targeted algorithm.*
+## GridSearchCV vs RandomizedCV? 
+*In gridsearchCV a process that searches exhaustively through a manually specified subset of the hyperparameter space of the targeted algorithm.*
+
+*In randomizedsearchcv, instead of providing a discrete set of values to explore on each hyperparameter, we provide a statistical distribution or list of hyper parameters. Values for the different hyper parameters are picked up at random from this distribution*
 Actually, we can say grid search method important for optimization models processing.
 
 ![Grid_Search](https://user-images.githubusercontent.com/51100947/124144153-6043c080-da94-11eb-8c3b-b7f23fca20d7.png)
 
 As we can see diffrences between grid search and random search.
+So we can say if we had a time and our model have no complexity we can use gridsearchCV.
+But we had a too big data and our model have complexity we can use RandomizedSearchCV.
 
 # Recommendation Systems
 *Basicly, a recommendation system , is a subclass of information filtering system that seeks to predict the "rating" or "preference" a user would give to an item.* 
