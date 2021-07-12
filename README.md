@@ -203,6 +203,20 @@ As we can see diffrences between grid search and random search.
 So we can say if we had a time and our model have no complexity we can use gridsearchCV.
 But we had a too big data and our model have complexity we can use RandomizedSearchCV.
 
+## What are the Overfitting and Underfitting status ?
+
+*Overfitting basicly, when a model learns the detail and noise in the training data to the extent that it negatively impacts the performance of the model on new data. example where given in below for overfitting.*
+
+![image](https://user-images.githubusercontent.com/51100947/125286467-81be6b00-e324-11eb-9e13-99bd04c4912f.png)
+
+* As you can see the overfitting status has some patterns by a train data.
+
+*Underfitting basicly, the counterpart of overfitting, happens when a machine learning model is not complex enough to accurately capture relationships between a dataset’s features and a target variable. Example where given in bellow for underfitting status.*
+
+![underfitting](https://user-images.githubusercontent.com/51100947/125286941-04dfc100-e325-11eb-9def-b286809416c8.PNG)
+
+* As you can see underfitting status has no optimize line for training data.
+
 # Recommendation Systems
 *Basicly, a recommendation system , is a subclass of information filtering system that seeks to predict the "rating" or "preference" a user would give to an item.* 
 
@@ -232,23 +246,26 @@ Generally, items based systems more usefull than userbased systems because peopl
 *Using three regression models because 'price' feature is continuous label*
 
 ##### Content
-* Average price by years
-* Transmision type by years
-* Fuel types by years
-* Model types by years
-* Avarage MPG by years
-* Avarage Engine Size by years
-* General display of numerical features by year
+* Data analysis
+  * Average price by years
+  * Transmision type by years
+  * Fuel types by years
+  * Model types by years
+  * Avarage MPG by years
+  * Avarage Engine Size by years
+  * General display of numerical features by year
 * ML Preprocessing
-* Obtain train and test spliting process
-* Encoding categorical features for learning processes
-* Used to Label encoder.
-* Train and test split
+  * Obtain train and test spliting process
+  * Encoding categorical features for learning processes
+  * Used to Label encoder.
+  * Train and test split
 * Learning Time !
-* Linear Regression
-* Decision tree regressor
-* Random Forest regressor
-* Compare the regressions's r2 score
+  * Linear Regression
+    * Learnin curve
+  * Decision tree regressor
+    * Learnin curve
+  * Random Forest regressor
+    * Learning curve
 
 # Cancer data
 *The data, has cancer cells feature where feature in below and trying to diagnose in dependent of feauture.*
