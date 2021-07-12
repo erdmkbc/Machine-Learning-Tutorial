@@ -20,7 +20,8 @@
 * PCA(Principle Component Analysis)
 * What is K-Fold-CrossValidation ? 
   * GridSearchCV vs RandomizedCV ?
-* What are the Overfitting and Underfitting status ? 
+* What are the Overfitting status for models? 
+  * How can we understand the overfitting in our model ? 
 * Recommendation Systems
 * Exploraty Data Analysis and training data that we use
 
@@ -216,6 +217,16 @@ But we had a too big data and our model have complexity we can use RandomizedSea
 ![underfitting](https://user-images.githubusercontent.com/51100947/125286941-04dfc100-e325-11eb-9def-b286809416c8.PNG)
 
 * As you can see underfitting status has no optimize line for training data.
+
+## How can we understand the overfitting ? 
+
+![overfitting](https://user-images.githubusercontent.com/51100947/125292679-5ab76780-e32b-11eb-8172-de09e38bc0ff.PNG)
+
+* As you can see from our learning curve our example model has a bayes diffrences and we can understand the status that is overfitting.
+* So, whhat shoull we do when we have learning curve like that.
+* First off all we can try to increase the trainin data.
+* We can try the feature selection, feature selection actually picking the important feature for target label.
+* Also we can feature dimension PCA we can told PCA where given in above.
 
 # Recommendation Systems
 *Basicly, a recommendation system , is a subclass of information filtering system that seeks to predict the "rating" or "preference" a user would give to an item.* 
