@@ -19,7 +19,9 @@
 * NLP(Natural Language Process)
 * PCA(Principle Component Analysis)
 * What is K-Fold-CrossValidation ? 
-  * What is GridSearch ?
+  * GridSearchCV vs RandomizedCV ?
+* What are the Overfitting status for models? 
+  * How can we understand the overfitting in our model ? 
 * Recommendation Systems
 * Exploraty Data Analysis and training data that we use
 
@@ -190,13 +192,41 @@ How it works ?*
 As you can see the process goal split the train data by k number.
 In number of 'k-1' in train data split for training process, in number of 1 split in train data for testing process.
 
-## What is the grid search ? 
-*Grid search is a process that searches exhaustively through a manually specified subset of the hyperparameter space of the targeted algorithm.*
+## GridSearchCV vs RandomizedCV? 
+*In gridsearchCV a process that searches exhaustively through a manually specified subset of the hyperparameter space of the targeted algorithm.*
+
+*In randomizedsearchcv, instead of providing a discrete set of values to explore on each hyperparameter, we provide a statistical distribution or list of hyper parameters. Values for the different hyper parameters are picked up at random from this distribution*
 Actually, we can say grid search method important for optimization models processing.
 
 ![Grid_Search](https://user-images.githubusercontent.com/51100947/124144153-6043c080-da94-11eb-8c3b-b7f23fca20d7.png)
 
 As we can see diffrences between grid search and random search.
+So we can say if we had a time and our model have no complexity we can use gridsearchCV.
+But we had a too big data and our model have complexity we can use RandomizedSearchCV.
+
+## What are the Overfitting and Underfitting status ?
+
+*Overfitting basicly, when a model learns the detail and noise in the training data to the extent that it negatively impacts the performance of the model on new data. example where given in below for overfitting.*
+
+![image](https://user-images.githubusercontent.com/51100947/125286467-81be6b00-e324-11eb-9e13-99bd04c4912f.png)
+
+* As you can see the overfitting status has some patterns by a train data.
+
+*Underfitting basicly, the counterpart of overfitting, happens when a machine learning model is not complex enough to accurately capture relationships between a dataset’s features and a target variable. Example where given in bellow for underfitting status.*
+
+![underfitting](https://user-images.githubusercontent.com/51100947/125286941-04dfc100-e325-11eb-9def-b286809416c8.PNG)
+
+* As you can see underfitting status has no optimize line for training data.
+
+## How can we understand the overfitting ? 
+
+![overfitting](https://user-images.githubusercontent.com/51100947/125292679-5ab76780-e32b-11eb-8172-de09e38bc0ff.PNG)
+
+* As you can see from our learning curve our example model has a bayes diffrences and we can understand the status that is overfitting.
+* So, whhat shoull we do when we have learning curve like that.
+* First off all we can try to increase the trainin data.
+* We can try the feature selection, feature selection actually picking the important feature for target label.
+* Also we can feature dimension PCA we can told PCA where given in above.
 
 # Recommendation Systems
 *Basicly, a recommendation system , is a subclass of information filtering system that seeks to predict the "rating" or "preference" a user would give to an item.* 
@@ -227,23 +257,26 @@ Generally, items based systems more usefull than userbased systems because peopl
 *Using three regression models because 'price' feature is continuous label*
 
 ##### Content
-* Average price by years
-* Transmision type by years
-* Fuel types by years
-* Model types by years
-* Avarage MPG by years
-* Avarage Engine Size by years
-* General display of numerical features by year
+* Data analysis
+  * Average price by years
+  * Transmision type by years
+  * Fuel types by years
+  * Model types by years
+  * Avarage MPG by years
+  * Avarage Engine Size by years
+  * General display of numerical features by year
 * ML Preprocessing
-* Obtain train and test spliting process
-* Encoding categorical features for learning processes
-* Used to Label encoder.
-* Train and test split
+  * Obtain train and test spliting process
+  * Encoding categorical features for learning processes
+  * Used to Label encoder.
+  * Train and test split
 * Learning Time !
-* Linear Regression
-* Decision tree regressor
-* Random Forest regressor
-* Compare the regressions's r2 score
+  * Linear Regression
+    * Learnin curve
+  * Decision tree regressor
+    * Learnin curve
+  * Random Forest regressor
+    * Learning curve
 
 # Cancer data
 *The data, has cancer cells feature where feature in below and trying to diagnose in dependent of feauture.*
